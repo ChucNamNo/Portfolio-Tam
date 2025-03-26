@@ -2,24 +2,24 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '175da7f3572280fab1a0c62ff19b7f01?pvs=74',
+  rootNotionPageId: '1c108498a9dc80aa9ff4e936128ceda8?pvs=4',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null, 
 
   // basic site info (required)
-  name: 'Long Chuc',
-  domain: 'longchuc.vercel.app',
-  author: 'Long Chúc',
+  name: 'Ngo Thi My Tam',
+  domain: 'Tam.vercel.app',
+  author: '',
 
   // open graph metadata (optional)
-  description: 'My Profile',
+  description: '',
 
   // social usernames (optional)
   twitter: '',
   github: '',
-  linkedin: 'chúc-phạm-long-801372289',
+  linkedin: '',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
@@ -51,15 +51,15 @@ export default siteConfig({
   // whether to use the default notion navigation style or a custom one with links to
   // important pages. To use `navigationLinks`, set `navigationStyle` to `custom`.
   //navigationStyle: 'default'
-  navigationStyle: 'custom',
-  navigationLinks: [
-    {
-      title: 'About',
-      pageId: '175da7f3572280fab1a0c62ff19b7f01?pvs=74'
-    },
-    {
-      title: 'Contact',
-      pageId: '1c0da7f357228055a129d90a84efc393'
-    }
-  ]
-})
+//   navigationStyle: 'custom',
+//   navigationLinks: [
+//     {
+//       title: 'About',
+//       pageId: '175da7f3572280fab1a0c62ff19b7f01?pvs=74'
+//     },
+//     {
+//       title: 'Contact',
+//       pageId: '1c0da7f357228055a129d90a84efc393'
+//     }
+//   ]
+// })
